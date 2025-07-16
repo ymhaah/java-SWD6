@@ -1,36 +1,62 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Compiled class files
+*.class
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Log files
+*.log
 
-# testing
-/coverage
+# BlueJ files
+*.ctxt
 
-# next.js
-/.next/
-/out/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# production
-/build
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# misc
+# IDEs and Editors
+
+## Eclipse
+.project
+.classpath
+.csettings/
+.settings/
+.metadata/
+bin/
+tmp/
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+## NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac system files
 .DS_Store
-*.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Windows system files
+Thumbs.db
+desktop.ini
 
-# local env files
-.env*.local
+# Maven
+target/
 
-# vercel
-.vercel
+# Gradle
+.gradle/
+build/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Others
+*.swp
+*.swo
